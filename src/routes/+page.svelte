@@ -1,6 +1,6 @@
 <script>
 	let scores = {
-		tennis: 2267,
+		tennis: 2396,
 		baseball: 1408,
 		bowling: 1906,
 		golf: 1291,
