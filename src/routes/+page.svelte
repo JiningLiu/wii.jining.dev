@@ -1,6 +1,6 @@
 <script>
 	let scores = {
-		tennis: 2396,
+		tennis: 2399,
 		baseball: 1408,
 		bowling: 1906,
 		golf: 1291,
@@ -30,7 +30,7 @@
 			</div>
 
 			<div class="score-column vstack d-gap">
-				<h2>{scores.tennis}</h2>
+				<h2>{scores.tennis} WR</h2>
 				<h2>{scores.baseball}</h2>
 				<h2>{scores.bowling}</h2>
 				<h2>{scores.golf}</h2>
@@ -79,12 +79,12 @@
 	}
 
 	#name::after {
-		content: '↗';
+		content: '↘';
 		opacity: 0;
 		font-size: min(5vw, 3rem);
 		font-weight: 400;
 		position: absolute;
-		left: -30%;
+		left: calc(-20% - 0.8vw);
 		bottom: 50%;
 		transform: translate(0, 50%);
 		transition: all ease-in-out 0.1s;
